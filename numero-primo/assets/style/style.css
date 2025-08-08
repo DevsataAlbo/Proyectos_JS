@@ -1,0 +1,71 @@
+body {
+    background: #3b3a3a;
+}
+
+.header {
+    text-align: center;
+    color: #ffffff;
+}
+
+main {
+    min-height: 98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #F7A768, #F76868);
+    color: #ffffff;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+main a {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+main a:hover {
+    background: #ffffff;
+    color: #F7A768;
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background: #FF6B35;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background: #e55a2b;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.9);
+    color: #F7A768;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+}
+
+#resultado {
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+}

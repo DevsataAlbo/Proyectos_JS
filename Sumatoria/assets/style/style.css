@@ -1,0 +1,91 @@
+body {
+    background: #3b3a3a;
+}
+
+.header {
+    text-align: center;
+    color: #ffffff;
+}
+
+main {
+    min-height: 98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #0f680f, #68F7D1);
+    color: #ffffff;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+main a {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+main a:hover {
+    background: #ffffff;
+    color: #3bd343;
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background: #0f3a10;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #3bd343;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(76, 175, 80, 0.3);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.9);
+    color: #3bd343;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.form-control:focus {
+    background: #ffffff;
+    border-color: #4CAF50;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.3);
+}
+
+#resultado {
+    background: rgba(255, 255, 255, 0.9);
+    color: #2E7D32;
+    border-left: 4px solid #4CAF50;
+}
+
+#proceso {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
